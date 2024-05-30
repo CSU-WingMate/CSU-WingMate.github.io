@@ -11,6 +11,23 @@ author_profile: true
 
 {% include base_path %}
 
+## Journal Articles
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.pubtype == 'journal' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Conference Papers
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'conference' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Patent
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'patent' %}
+      {% include archive-single.html %}
+  {% endif %}
 {% endfor %}

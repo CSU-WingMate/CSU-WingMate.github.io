@@ -2,7 +2,7 @@
 title: "CVECenter: Industry Practice of Automated Vulnerability Management for Linux Distribution Community"
 collection: publications
 permalink: /publication/fse24cvecenter
-date: 2024
+date: 2024-05-14
 venue: 'ACM International Conference on the Foundations of Software Engineering 2024 [FSE, CCF-A]'
 paperurl: '*'
 doi: '*'
